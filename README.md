@@ -1,4 +1,3 @@
-# customer-segmentation
 # Segmentasi Pelanggan Retail Fashion
 
 Analisis kelompok pelanggan toko fashion menggunakan Python dan Pandas
@@ -34,6 +33,15 @@ Hasil pemeriksaan: tanpa missing value dan tanpa baris duplikat.
 Aturan segmen: Loyal = skor frekuensi >= 4 dan pembelian sebelumnya >= 25;
 Berpotensi = pembelian sebelumnya >= 25 saja; Baru Aktif = skor frekuensi
 >= 4 saja; Jarang Beli = sisanya.
+
+## Visualisasi
+
+<img width="580" alt="Jumlah pelanggan per segmen" src="https://github.com/user-attachments/assets/c4370b60-520e-4dcb-a593-2d303dda79fe" />
+
+<img width="562" alt="Rata-rata belanja per segmen" src="https://github.com/user-attachments/assets/c052dc49-998e-47d5-b83f-32e0de47c8c5" />
+
+Jumlah pelanggan paling banyak ada di segmen Berpotensi, sedangkan
+rata-rata belanja hampir sama di semua segmen (sekitar $59 sampai $60).
 
 ## Temuan
 1. Nilai belanja per transaksi hampir seragam (sekitar $59-60) di
